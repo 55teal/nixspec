@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Nixspec
+GenericName=Sober Configuration Editor
+Comment=Edit Sober FastFlags and settings
+Exec=nixspec
+TryExec=nixspec
+Icon=nixspec
+Terminal=true
+Categories=Utility;Settings;
+Keywords=Sober;Roblox;FastFlags;FFlags;
+StartupNotify=false

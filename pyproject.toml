@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nixspec"
+version = "0.2.0"
+description = "Terminal configuration editor for Sober (FastFlags and settings)"
+requires-python = ">=3.9"
+dependencies = ["textual>=0.80", "rich"]
+
+[project.optional-dependencies]
+syntax = ["textual[syntax]"]
+
+[project.scripts]
+nixspec = "nixspec_app:main"
+
+[tool.setuptools]
+py-modules = ["nixspec", "nixspec_logic", "nixspec_app"]
